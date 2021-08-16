@@ -12,7 +12,7 @@ def login():
 		return render_template('login.html')
 	else:
 		if get_user_by_username(request.form['email']) != None and request.form['password'] == get_user_by_mail(request.form['email']).word:
-			return render_template('index.html')
+			return render_template('home.html')
 		return render_template('login.html')
 
 
