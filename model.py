@@ -1,7 +1,13 @@
 from sqlalchemy import Column, Integer, String, Boolean
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker
-from sqlalchemy import create_engine
-from passlib.apps import custom_app_context as pwd_security
+from sqlalchemy.orm import declarative_base
 
 Base = declarative_base()
+
+# TODO: Add your models below this line!
+
+class User(Base):
+	__tablename__ = 'users'
+	name = Column(String)
+	email = Column(String, primary_key=True)
+	word = Column(String)
+	doante = Column(Integer)
