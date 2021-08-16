@@ -9,8 +9,8 @@ session = DBSession()
 
 # TODO: Add your database functions below this line!
 
-def add_user(name, email, word, donate):
-    user_object = User(name= name, email= email, word= word, donate= donate)
+def add_user(name, email, word):
+    user_object = User(name= name, email= email, word= word, donate= 0)
     session.add(user_object)
     session.commit()
 
