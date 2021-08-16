@@ -7,3 +7,4 @@ engine = create_engine('sqlite:///users.db?check_same_thread=False')
 Base.metadata.create_all(engine)
 DBSession = sessionmaker(bind=engine)
 session = DBSession()
+
