@@ -1,5 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 
+body {
+  background: #9687ad;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: white;
+
+
+
+
+}
+
+
+
+.headline1{
+  font-weight: bolder;
+  margin: 0;
+  margin-left: 5%;
+  font-size: 40px;
+}
+
+.headline2{
+  margin-left: 5%;
+  font-size: 70px;
+  margin: 0;
+  font-weight: bold;
+  margin-top: 15%;
+
+}
+
+.headline3{
+  text-align: left;
+}
+
+.headline4{
+  text-align: left;
+  margin-left: 5%;
+
+
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+
+span {
+  font-size: 12px;
+}
+
+a {
+  color: #333;
+  font-size: 14px;
+  text-decoration: none;
+  margin: 15px 0;
+}
 
 
 
@@ -17,11 +77,8 @@ body {
   --secoColor: #555555;
   --cornerRad: 4px;
 }
-body {
-  background-color: #C9F0FF;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
+
+
 details {
   margin: 40px;
 }
@@ -176,22 +233,3 @@ ul{
 
 /*navbar end
 */
-.headline1{
-  text-align: left;
-  margin-left: 5%;
-  font-family: serif;
-  font: Garamond;
-  font-size: 40px;
-  margin-top: 5%;
-}
-
-
-.headline2{
-  text-align: left;
-  margin-left: 5%;
-  font-family: serif;
-  font: Garamond;
-  font-size: 80px;
-  margin-top: 10%;
-
-}
