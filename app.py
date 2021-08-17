@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect,url_for
 from databases import *
 
 app = Flask(__name__)
@@ -12,12 +12,16 @@ def login():
 		return render_template('login.html')
 	else:
 		if get_user_by_mail(request.form['email']) != None and request.form['password'] == get_user_by_mail(request.form['email']).word:
-			return render_template('homepage.html')
+			return redirect(url_for('ads'))
 		return render_template('login.html')
 
 @app.route("/aboutus")
 def aboutus():
 	return render_template('aboutus.html')
+
+@app.route("/ads")
+def ads():
+	return render_template('ads.html')
 
 @app.route("/signupsub", methods = ['GET','POST'])
 def signup():
@@ -31,7 +35,7 @@ def signup():
 			donate = 0
 			 )
 
-		return render_template("homepage.html")
+		return redirect(url_for('ads'))
 
 @app.route("/")
 def index():
