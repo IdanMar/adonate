@@ -15,6 +15,10 @@ def login():
 			return render_template('homepage.html')
 		return render_template('login.html')
 
+@app.route("/aboutus")
+def aboutus():
+	return render_template('aboutus.html')
+
 @app.route("/signupsub", methods = ['GET','POST'])
 def signup():
 	if request.method == 'GET':
