@@ -1,3 +1,8 @@
+
+
+
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -123,4 +128,48 @@ details[open]::before {
   100% {
     opacity: 0;
   }
+}
+
+
+/*navbar design 
+*/
+header{
+  background-color: #140226;
+  /* height: 12.5vh; */
+}
+
+.container{
+  background-color: #140226;
+
+}
+
+
+
+#welove{
+   position: absolute;
+  right: 99%; 
+  width: 0.5vw; 
+  height: 0.5vw;
+
+}
+
+ul{
+  position: absolute;
+  left: 5px;
+  /* transform: translate(55%, 0%); */
+      font-size: 1.5vw;
+
+}
+
+#button{
+  width: 10vw;
+    font-size: 1.5vw;
+
+
+
+}
+
+.text-end{
+  position: absolute;
+  right: 2%;
 }
