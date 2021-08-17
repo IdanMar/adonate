@@ -13,7 +13,7 @@ body {
   --cornerRad: 4px;
 }
 body {
-  background-color: var(--primColor);
+  background-color: #C9F0FF;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
