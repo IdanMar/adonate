@@ -10,4 +10,4 @@ class User(Base):
 	name = Column(String)
 	email = Column(String, primary_key=True)
 	word = Column(String)
-	doante = Column(Integer)
+	donate = Column(Integer)

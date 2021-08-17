@@ -23,7 +23,8 @@ def signup():
 		add_user(
 			name=request.form['signupname'],
 			email=request.form['signupemail'],
-			word=request.form['signupword']
+			word=request.form['signupword'],
+			donate = 0
 			 )
 
 		return render_template("homepage.html")
