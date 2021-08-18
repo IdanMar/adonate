@@ -1,15 +1,81 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- Ensures optimal rendering on mobile devices -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-- Optimal Internet Explorer compatibility -->
-  </head>
+<html lang="en">
+<head>
 
+     <title>ADonate</title>
+<!-- 
+
+Eatery Cafe Template 
+
+http://www.templatemo.com/tm-515-eatery
+
+-->
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="static/css/bootstrap.min.css">
+     <link rel="stylesheet" href="static/css/font-awesome.min.css">
+     <link rel="stylesheet" href="static/css/animate.css">
+     <link rel="stylesheet" href="static/css/owl.carousel.css">
+     <link rel="stylesheet" href="static/css/owl.theme.default.min.css">
+     <link rel="stylesheet" href="static/css/magnific-popup.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="static/css/templatemo-style.css">
+     <style type="text/css">#paypal-button-container{position:absolute; top:70%; left:50%;width: 60vw;transform: translate(-50%, 0%); }h1{position: absolute; top: 25%;left:50%; transform: translate(-50%, 0%); text-align: center;}</style>
+
+</head>
   <body>
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     <!-- MENU -->
+     <section class="navbar custom-navbar navbar-fixed-top" role="navigation">
+          <div class="container">
+
+               <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                         <span class="icon icon-bar"></span>
+                    </button>
+
+                    <!-- lOGO TEXT HERE -->
+                    <a href="index.html" class="navbar-brand">ADonate <span>.</span> Help</a>
+               </div>
+
+               <!-- MENU LINKS -->
+               <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-nav-first">
+                         <li><a href="/" class="smoothScroll">Home</a></li>
+                          <li><a href="/aboutus" class="smoothScroll">About US</a></li>
+                         <li><a href="/donations" class="smoothScroll">Donations</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                         <!-- <li><a href="#">Call Now! <i class="fa fa-phone"></i> 010 020 0340</a></li> -->
+                          <a href="/login" class="section-btn">Let's start</a>
+                    </ul>
+               </div>
+
+          </div>
+     </section>
     <!-- Include the PayPal JavaScript SDK; replace "test" with your own sandbox Business account app client ID -->
     <script src="https://www.paypal.com/sdk/js?client-id=test&currency=USD"></script>
 
     <!-- Set up a container element for the button -->
+    <h1>The world will be a better place with your donation<br> :)</h1>
     <div id="paypal-button-container"></div>
 
     <script>
@@ -44,5 +110,22 @@
       }).render('#paypal-button-container');
 
     </script>
-  </body>
+     <!-- SCRIPTS -->
+     <script src="static/js/jquery.js"></script>
+     <script src="static/js/bootstrap.min.js"></script>
+     <script src="static/js/jquery.stellar.min.js"></script>
+     <script src="static/js/wow.min.js"></script>
+     <script src="static/js/owl.carousel.min.js"></script>
+     <script src="static/js/jquery.magnific-popup.min.js"></script>
+     <script src="static/js/smoothscroll.js"></script>
+     <script src="static/js/custom.js"></script>
+
+
+     <script type="text/javascript">
+var infolinks_pid = 3341067;
+var infolinks_wsid = 0;
+</script>
+<script type="text/javascript" src="http://resources.infolinks.com/js/infolinks_main.js"></script>
+
+</body>
 </html>
