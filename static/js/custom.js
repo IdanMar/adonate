@@ -13,7 +13,7 @@
       $(".navbar-collapse").collapse('hide');
     });
 
-    $(window).scroll(function() {
+    $(window).ready(function() {
       if ($(".navbar").offset().top > -1) {
         $(".navbar-fixed-top").addClass("top-nav-collapse");
           } else {
