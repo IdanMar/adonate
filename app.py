@@ -19,6 +19,10 @@ def login():
 def aboutus():
 	return render_template('aboutus.html')
 
+@app.route("/paypal")
+def paypal():
+	return render_template('paypal.html')
+
 @app.route("/donations")
 def donations():
 	return render_template('donations.html')
