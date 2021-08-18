@@ -39,7 +39,11 @@ def signup():
 
 @app.route("/")
 def index():
-	return render_template("homepage.html")
+	return render_template("index.html")
+
+# @app.route("/")
+# def index():
+# 	return render_template("homepage.html")
 
 
 if __name__ == "__main__":
