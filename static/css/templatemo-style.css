@@ -403,15 +403,15 @@ http://www.templatemo.com/tm-515-eatery
   }
 
   .slider .item-first {
-    background-image: url(../images/entrep.jpg);
+    background-image: url(/static/images/entrep.jpg);
   }
 
   .slider .item-second {
-    background-image: url(../images/entrep2.jpg);
+    background-image: url(/static/images/entrep2.jpg);
   }
 
   .slider .item-third {
-    background-image: url(../entrep3.jpg);
+    background-image: url(/static/images/entrep3.jpg);
   }
 
   .slider .item-second .section-btn {
